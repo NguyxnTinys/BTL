@@ -33,8 +33,11 @@ body {
     background-size: cover;        /* Đảm bảo ảnh phủ toàn bộ */
     background-position: top;   /* Canh giữa ảnh */
     background-repeat: no-repeat;  /* Không lặp lại ảnh */
+    height: auto;
+    min-height: 100vh;
     color: var(--text-body);
     font-family: var(--text-body);
+    overflow: hidden;
 }
 
 .header {
